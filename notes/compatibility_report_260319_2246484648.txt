@@ -1,0 +1,8 @@
+Converting GML script: ${project_dir}\objects\obj_Analogue_Stick\Create_0.gml
+Converted description /// @description Custom Config
+
+Converting GML script: ${project_dir}\objects\obj_Analogue_Stick\Step_0.gml
+Converted description /// @description Handle Input
+
+Converting GML script: ${project_dir}\objects\obj_Analogue_Stick\Draw_0.gml
+Converted description /// @description Void this function
