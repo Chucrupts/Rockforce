@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "a99f595f-45e4-415a-bbe6-63760dfab396",
+            "Value": {
+                "id": "0b15be75-0867-43cd-9299-92ef7d7fc723",
+                "resourcePath": "objects\\oControll\\oControll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b29a5303-04c2-4860-865e-3113ec5a1b05",
             "Value": {
                 "id": "f189c1df-d796-48f5-a33b-8fba82768b33",
@@ -436,6 +444,14 @@
                 "id": "2557089a-abf6-42f0-bcd7-a1f40c499499",
                 "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fbb941e7-0b15-4a17-8229-07ff79a47e1a",
+            "Value": {
+                "id": "d4e4053b-7575-4442-a9f2-14697117c1f7",
+                "resourcePath": "objects\\oJoyJump\\oJoyJump.yy",
+                "resourceType": "GMObject"
             }
         },
         {
