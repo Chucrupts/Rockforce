@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "3f8911f4-1a86-483a-a4f5-47946f33d0ff",
     "children": [
-        "1405d54f-75af-4c27-aba1-4a6a6a197702"
+        "1405d54f-75af-4c27-aba1-4a6a6a197702",
+        "190ba1ce-fd74-4ace-a108-e1177e325bf9"
     ],
     "filterType": "GMSprite",
     "folderName": "Virtual Joy",
