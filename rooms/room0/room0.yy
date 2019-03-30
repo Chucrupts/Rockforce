@@ -38,7 +38,8 @@
         "e2cfa271-f7f3-4559-99c3-a723a34f91a6",
         "fe29efec-833d-46ae-977f-1b723d9885c6",
         "429cf702-9b43-47f3-b1ee-099bde102e54",
-        "73ef6769-ee7e-4c7b-ad22-2be8e724c816"
+        "73ef6769-ee7e-4c7b-ad22-2be8e724c816",
+        "46ad0b26-359f-4a06-8b48-e90225309b3b"
     ],
     "IsDnD": false,
     "layers": [
@@ -150,9 +151,35 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Enemies",
+            "id": "f3108ff9-3744-44a7-946e-1a66df9c771d",
+            "depth": 400,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_35F62E5","id": "46ad0b26-359f-4a06-8b48-e90225309b3b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35F62E5","objId": "e15f8a7c-21df-45d0-b109-a8652c9cf39d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 256,"y": 352}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Wall",
             "id": "b22aba42-c31c-4931-921c-4d14af422219",
-            "depth": 400,
+            "depth": 500,
             "grid_x": 16,
             "grid_y": 16,
             "hierarchyFrozen": true,
@@ -202,7 +229,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Camera",
             "id": "209a5009-41e3-44e6-8084-f50359093297",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,
@@ -232,7 +259,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294169979 },
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,

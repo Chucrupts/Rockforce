@@ -1,4 +1,4 @@
-/// @description Players collision
+/// @description Insert description here
 
 // gravidade
 vspd = vspd + grv;
@@ -17,6 +17,7 @@ x = x + hspd;
 // V Collision
 if (place_meeting(x, y + vspd, oWall))
 {
+	if (vspd > 0) hspd = 0;
 	while (!place_meeting(x, y + sign(vspd), oWall))
 	{
 		y = y + sign(vspd);
