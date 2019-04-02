@@ -19,4 +19,3 @@ if place_meeting(x, y + 1, oWall) && ((jump) || (key_jump))
 	vspd = -6;
 	
 }
-	

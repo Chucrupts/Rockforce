@@ -12,6 +12,7 @@ if (place_meeting(x + hspd, y, oWall))
 	}
 	hspd = 0;
 }
+
 x = x + hspd;
 
 // V Collision
@@ -23,4 +24,5 @@ if (place_meeting(x, y + vspd, oWall))
 	}
 	vspd = 0;
 }
+
 y = y + vspd;
