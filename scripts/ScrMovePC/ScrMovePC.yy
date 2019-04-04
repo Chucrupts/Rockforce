@@ -1,8 +1,8 @@
 {
-    "id": "176edac0-34b1-419e-bb6f-89db09b54528",
+    "id": "0a7998b1-55e7-48c9-b9b7-375e02db27b2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ScrMove",
+    "name": "ScrMovePC",
     "IsCompatibility": false,
     "IsDnD": false
 }

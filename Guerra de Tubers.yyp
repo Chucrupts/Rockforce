@@ -34,7 +34,7 @@
             "Key": "0a7998b1-55e7-48c9-b9b7-375e02db27b2",
             "Value": {
                 "id": "860f6c80-37e9-43a6-87bc-3d1f923adf69",
-                "resourcePath": "scripts\\ScrMove\\ScrMove.yy",
+                "resourcePath": "scripts\\ScrMovePC\\ScrMovePC.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -76,6 +76,14 @@
                 "id": "a561a3a6-b9dd-49d3-abe1-48c0794c0a97",
                 "resourcePath": "views\\1405d54f-75af-4c27-aba1-4a6a6a197702.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "176edac0-34b1-419e-bb6f-89db09b54528",
+            "Value": {
+                "id": "06584dce-fb51-4d75-83bd-7e6dbc2ce98f",
+                "resourcePath": "scripts\\ScrMove\\ScrMove.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -236,6 +244,14 @@
                 "id": "1576c026-becf-4132-8852-5172186554d8",
                 "resourcePath": "sprites\\sEnemyRun\\sEnemyRun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62c82b8f-30b4-4782-b554-c8c5d3206c81",
+            "Value": {
+                "id": "c9959e56-2dcd-4b2f-9489-f93b631d393d",
+                "resourcePath": "objects\\oBulletEnemy\\oBulletEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -545,6 +561,7 @@
     ],
     "script_order": [
         "0a7998b1-55e7-48c9-b9b7-375e02db27b2",
+        "176edac0-34b1-419e-bb6f-89db09b54528",
         "11742463-14ff-4c66-8b11-a9e2c837d528",
         "b6dd116a-f909-49a3-bde5-5cc63c06963f"
     ],

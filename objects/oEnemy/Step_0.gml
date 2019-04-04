@@ -65,12 +65,40 @@ else if (state == states.wander)
 }
 else if (state == states.attack)
 {
-	#region Wander
+	#region Attack
 	// Behaviour
 	hspd = 0;
 	image_xscale = sign( x - oPlayer.x ) * -1;
 	
+	var imageAngle  = 0;
+	var bulletCreation = 0;
+	if (image_xscale < 0) imageAngle	  = 180; else imageAngle     = 0;
+	if (image_xscale < 0) bulletCreation  = -20; else bulletCreation  = +20;
 	
+	firingdelay = firingdelay - 1;
+
+	if (firingdelay < 0 && counter != 0)
+	{
+		firingdelay = irandom_range(40, 80);
+		with (instance_create_layer(x + bulletCreation, y + 1, "Bullet", oBulletEnemy))
+		{
+			speed = 8;
+			direction = imageAngle + random_range(-1,1);
+			image_xscale = other.image_xscale;
+		}
+	}
+	with (enemy_vision)
+	{
+		if (!place_meeting(x, y, oPlayer))
+		{
+			other.counter +=1;
+			if (other.counter >= room_speed * 20) 
+			{
+				other.state = states.idle;
+				counter = 0;
+			}
+		}
+	}
 	
 	#endregion
 }
