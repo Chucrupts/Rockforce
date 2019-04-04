@@ -5,5 +5,12 @@ globalvar fire;
 globalvar jump;
 
 
+
 fire = false;
 jump = false;
+
+with (oEnemy) 
+{
+	
+
+}

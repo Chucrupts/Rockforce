@@ -7,13 +7,10 @@ walkspd = 2;
 enum states {
 	idle,
 	wander,
-	alert,
-	attack
+	attack	
 }
 
 state = states.idle;
 counter = 0;
-my_dir = 0;
-moveX = 0;
-beginPosition = x;
-
+begin_position = x;
+enemy_vision = instance_create_layer(x, y , layer, oEnemyVision);

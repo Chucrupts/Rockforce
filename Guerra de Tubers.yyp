@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2143c150-c863-4e5d-89a3-c279a1b81b40",
+            "Value": {
+                "id": "7f9f211b-0fbe-4df6-95ad-530216ffb0c9",
+                "resourcePath": "sprites\\sEnemyVision\\sEnemyVision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21b45b83-42fe-42a2-acb6-1f8fe4520446",
             "Value": {
                 "id": "375feddf-0c3b-421b-bef2-15459967a924",
@@ -236,6 +244,14 @@
                 "id": "46991af4-39fc-4743-8157-81ecf04eea26",
                 "resourcePath": "views\\646daf13-017d-45b5-9425-0945210a90dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7225b80a-8644-48c7-8407-5ebe6587e041",
+            "Value": {
+                "id": "767846d0-89b9-438c-babd-003109347ba1",
+                "resourcePath": "objects\\oEnemyVision\\oEnemyVision.yy",
+                "resourceType": "GMObject"
             }
         },
         {

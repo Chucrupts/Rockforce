@@ -3,6 +3,9 @@
 ScrCollision();
 ScrAnimation(sEnemy,sEnemyRun,sEnemy);
 
+// Attach enemy vision
+enemy_vision.x = x;
+enemy_vision.y = y;
 
 if (state == states.idle)
 {
@@ -21,9 +24,12 @@ if (state == states.idle)
 			case 1 : counter = 0; break;
 		}
 	}
-	if (collision_rectangle(100, 10, 100, 5, oPlayer, false, false))
+	with (enemy_vision)
 	{
-		states = states.alert;
+		if (place_meeting(x, y, oPlayer))
+		{
+			other.state = states.attack;
+		}
 	}
 	#endregion
 }
@@ -33,7 +39,7 @@ else if (state == states.wander)
 	// Behaviour
 	counter +=1;
 	
-	if (x > beginPosition + 20 || x < beginPosition - 20) hspd = hspd * -1;
+	if (x > begin_position + 20 || x < begin_position - 20) hspd = hspd * -1;
 	
 	// Transition Triggers
 	if (counter >= room_speed * 3)
@@ -47,13 +53,26 @@ else if (state == states.wander)
 				counter = 0;
 		}
 	}
-	if (collision_rectangle(100, 10, 100, 5, oPlayer, false, false))
+	with (enemy_vision)
 	{
-		states = states.alert;
+		if (place_meeting(x, y, oPlayer))
+		{
+			other.state = states.attack;
+		}
 	}
-	//srpite
 	
 	#endregion
 }
-
+else if (state == states.attack)
+{
+	#region Wander
+	// Behaviour
+	hspd = 0;
+	image_xscale = sign( x - oPlayer.x ) * -1;
+	
+	
+	
+	#endregion
+}
+	
 

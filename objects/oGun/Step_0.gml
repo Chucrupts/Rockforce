@@ -1,7 +1,7 @@
 /// @description Insert description here
 
-y = oPlayer.y + 2;
-x = oPlayer.x;
+//y = oPlayer.y + 2;
+//x = oPlayer.x;
 
 var imageAngle  = 0;
 var bulletCreation = 0;
