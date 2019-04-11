@@ -4,9 +4,9 @@
 vspd = vspd + grv;
 
 // H Collision
-if (place_meeting(x + hspd, y, oWall))
+if (place_meeting(x + hspd, y, oSolid))
 {
-	while (!place_meeting(x + sign(hspd), y, oWall))
+	while (!place_meeting(x + sign(hspd), y, oSolid))
 	{
 		x = x + sign(hspd);
 	}
@@ -16,9 +16,9 @@ if (place_meeting(x + hspd, y, oWall))
 x = x + hspd;
 
 // V Collision
-if (place_meeting(x, y + vspd, oWall))
+if (place_meeting(x, y + vspd, oSolid))
 {
-	while (!place_meeting(x, y + sign(vspd), oWall))
+	while (!place_meeting(x, y + sign(vspd), oSolid))
 	{
 		y = y + sign(vspd);
 	}

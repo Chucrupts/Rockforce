@@ -13,9 +13,9 @@ var move = key_right - key_left
 hspd = move * walkspd;
 
 // pulo
-if place_meeting(x, y + 1, oWall) && ((jump) || (key_jump))
+if place_meeting(x, y + 1, oSolid) && ((jump) || (key_jump))
 {
 	//altura do pulo
-	vspd = -6;
+	vspd = -7;
 	
 }

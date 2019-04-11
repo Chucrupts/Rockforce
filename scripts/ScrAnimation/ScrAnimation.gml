@@ -3,7 +3,7 @@
 /// @param jumpSprite
 
 // Animation
-if (!place_meeting(x, y + 1, oWall))
+if (!place_meeting(x, y + 1, oSolid))
 {
 	sprite_index = argument2;
 	image_speed  = 0;

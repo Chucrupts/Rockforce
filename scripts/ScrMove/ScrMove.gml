@@ -12,9 +12,9 @@ var move = round(oJoy.normalx * 1.5);
 hspd = move * walkspd;
 
 // pulo
-if place_meeting(x, y + 1, oWall) && ((jump))
+if place_meeting(x, y + 1, oSolid) && ((jump))
 {
 	//altura do pulo
-	vspd = -6;
+	vspd = -7;
 	
 }
