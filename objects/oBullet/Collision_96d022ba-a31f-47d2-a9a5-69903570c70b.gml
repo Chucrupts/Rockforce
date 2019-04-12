@@ -11,5 +11,6 @@ with(other)
 		image_xscale = sign(hspd);
 	}
 }
-
+ScrBulletEnd();
+ScrParticleBlood();
 instance_destroy();

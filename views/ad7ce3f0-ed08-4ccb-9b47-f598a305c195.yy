@@ -9,7 +9,8 @@
         "5d8e8075-22e1-4e6c-8de1-397c4d60ae4a",
         "b88b4373-37b6-460e-87ce-2b99462865e3",
         "990bb58d-941e-434d-bceb-e3b7c80732c4",
-        "96c658d5-5bab-414e-9231-f00d8de72d59"
+        "96c658d5-5bab-414e-9231-f00d8de72d59",
+        "90dbb728-a556-440c-a371-89eb97d00c56"
     ],
     "filterType": "GMSprite",
     "folderName": "backgorunds",

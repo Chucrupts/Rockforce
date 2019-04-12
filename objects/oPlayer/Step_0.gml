@@ -1,6 +1,6 @@
 
 // Basic Scripts
-ScrMove();
+ScrMovePC();
 ScrCollision();
 ScrAnimation(sPlayer, sPlayerRun, sPlayerJump);
 

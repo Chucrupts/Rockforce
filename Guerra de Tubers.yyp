@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "19b46c8d-f076-4976-938c-2646271821bb",
+            "Value": {
+                "id": "f7c2e07a-60c1-429f-9be6-2defbedf7533",
+                "resourcePath": "scripts\\ScrBulletEnd\\ScrBulletEnd.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1a697540-498d-4967-ba57-f6abddb95b63",
             "Value": {
                 "id": "cd261179-c75f-459f-902f-d62c37c4dad6",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "7379a207-6789-4d15-9644-f6041f9b521d",
+            "Value": {
+                "id": "4423d9a1-4ecf-4359-8e74-642607757bd8",
+                "resourcePath": "scripts\\ScrParticleBlood\\ScrParticleBlood.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "747a686b-0bf8-4094-b37b-838919eb39a6",
             "Value": {
                 "id": "29f201de-3857-4f94-bb84-241e743bd754",
@@ -436,6 +452,22 @@
                 "id": "67f0150b-781f-41fd-b14e-c5e88cb67c3f",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "90a1feb6-3136-420a-9956-041f30c94888",
+            "Value": {
+                "id": "fd75adf4-b161-45a2-a217-03167509cd21",
+                "resourcePath": "objects\\oBulletEnd\\oBulletEnd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90dbb728-a556-440c-a371-89eb97d00c56",
+            "Value": {
+                "id": "ec77bf46-e60e-4d2b-8611-87f5b8ded06e",
+                "resourcePath": "sprites\\sBK8\\sBK8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -555,6 +587,22 @@
             "Value": {
                 "id": "42d66762-2e77-486e-85fd-778c333484be",
                 "resourcePath": "views\\b9e6bae3-4c46-43b4-af62-826aae22f610.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "baf4d097-98ca-4943-9a76-624a4e5d0aba",
+            "Value": {
+                "id": "d1a364d1-293a-4683-bad2-9e5ef3dcbb9b",
+                "resourcePath": "sprites\\sTileWall\\sTileWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbfbeac9-dacf-48fa-97ad-0d3240907447",
+            "Value": {
+                "id": "36733e40-5bcc-411b-b47e-beb62a5d7566",
+                "resourcePath": "views\\bbfbeac9-dacf-48fa-97ad-0d3240907447.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -703,6 +751,14 @@
             }
         },
         {
+            "Key": "f828b098-a81d-4249-b9eb-810f004cf9b5",
+            "Value": {
+                "id": "d78260f2-5ce0-4b47-ac87-c86651783d4a",
+                "resourcePath": "objects\\oParticleBlood\\oParticleBlood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f83dda09-717d-4cd7-917d-18fe5606e343",
             "Value": {
                 "id": "cf33c32f-476f-4995-966d-c8c6309314ad",
@@ -715,6 +771,14 @@
             "Value": {
                 "id": "ba4c7032-2fb8-48d0-9d55-8cc45d511740",
                 "resourcePath": "sprites\\sEnemyFire\\sEnemyFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f9cf12de-30db-436e-a96f-78c3df8d7127",
+            "Value": {
+                "id": "270f7d32-6dc8-4fec-a248-cc505b6acb2a",
+                "resourcePath": "sprites\\sBulletEnd\\sBulletEnd.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -741,7 +805,9 @@
         "11742463-14ff-4c66-8b11-a9e2c837d528",
         "b6dd116a-f909-49a3-bde5-5cc63c06963f",
         "f83dda09-717d-4cd7-917d-18fe5606e343",
-        "b0f9ab79-c9cc-4dde-95b2-1f6d5b52de04"
+        "7379a207-6789-4d15-9644-f6041f9b521d",
+        "b0f9ab79-c9cc-4dde-95b2-1f6d5b52de04",
+        "19b46c8d-f076-4976-938c-2646271821bb"
     ],
     "tutorial": ""
 }

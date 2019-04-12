@@ -5,8 +5,7 @@
     "name": "7930f4d1-85fd-43cd-af49-6f0b1e484d10",
     "children": [
         "24498e96-2f8c-4c69-be93-cd81d8b77b65",
-        "a99f595f-45e4-415a-bbe6-63760dfab396",
-        "05c6515a-7a53-43c0-bd0b-6bece9abbc04"
+        "a99f595f-45e4-415a-bbe6-63760dfab396"
     ],
     "filterType": "GMObject",
     "folderName": "Control",
