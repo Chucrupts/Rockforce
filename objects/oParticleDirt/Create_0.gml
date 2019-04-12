@@ -5,7 +5,7 @@ partBlood_sys = part_system_create();
 //Blood Particle
 partBlood = part_type_create();
 part_type_shape(partBlood,pt_shape_square);
-part_type_size(partBlood,.05,.05,0,0);
+part_type_size(partBlood,.1,.1,0,0);
 part_type_colour_rgb(partBlood, 149, 183, 149, 183, 149, 183);
 part_type_alpha1(partBlood,1);
 part_type_speed(partBlood,1,3,0,0);

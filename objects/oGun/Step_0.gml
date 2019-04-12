@@ -13,6 +13,7 @@ firingdelay = firingdelay - 1;
 
 if (fire) && (firingdelay < 0)
 {
+	ScrScreenShake(2, 10)
 	recoil		= 2;
 	firingdelay = 6;
 	with (instance_create_layer(x + bulletCreation, y + 1, "Bullet", oBullet))
