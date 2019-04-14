@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+#region gravity behaviour
 // gravidade
 vspd = vspd + grv;
 
@@ -25,3 +25,9 @@ if (place_meeting(x, y + vspd, oSolid))
 	vspd = 0;
 }
 y = y + vspd;
+
+#endregion
+
+//timer --;
+//if (timer < 0) image_alpha-=0.005;
+//if (image_alpha<0) instance_destroy();

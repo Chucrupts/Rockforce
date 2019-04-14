@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "a68160fe-3b57-486d-8510-f88b50fac337",
+            "Value": {
+                "id": "e834d4a6-c42e-4f40-9efd-b476de0466ad",
+                "resourcePath": "objects\\oActionButton\\oActionButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8677b46-8111-4b8b-9a99-626a2242d243",
             "Value": {
                 "id": "3be29be1-73a1-4761-9955-614e9d43b63b",

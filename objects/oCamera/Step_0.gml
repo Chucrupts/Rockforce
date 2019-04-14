@@ -28,3 +28,4 @@ camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 layer_x("Backgrounds_1", x/3);
 layer_x("Backgrounds_2", x/4);
 layer_x("Backgrounds_5", x/8);
+layer_x("Backgrounds_6", x/8);

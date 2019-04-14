@@ -15,6 +15,9 @@ normaldir = 0;
 touching = false;
 touchid = -1;
 
+begin_position_x = x;
+begin_position_y = y;
+
 
 
 

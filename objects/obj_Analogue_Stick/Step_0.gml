@@ -46,3 +46,25 @@ normalx = (joyx / radius) * 1;
 if(abs(normalx) < deadzone){ normalx = 0; }
 //if(abs(normaly) < deadzone){ normaly = 0; }
 
+
+// Obj follow the finger
+if (mouse_check_button_pressed(mb_left))
+{
+	
+	if (device_mouse_x_to_gui(0) <= (display_get_gui_width() / 3) && device_mouse_y_to_gui(0) >= (display_get_gui_height() / 1.5))
+	{
+		x = device_mouse_x_to_gui(0);
+		y = device_mouse_y_to_gui(0);
+		
+			if (device_mouse_x_to_gui(0) < begin_position_x)
+			{
+				x = begin_position_x;
+			}
+			if (device_mouse_y_to_gui(0) > begin_position_y)
+			{
+				y = begin_position_y;
+			}
+		
+	}
+
+}

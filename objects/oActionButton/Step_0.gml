@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+
 if(touching){
 
     if(device_mouse_check_button(touchid, mb_left) == false){
@@ -15,11 +15,8 @@ if(touching){
             if(touchPoint <= radius && device_mouse_check_button(i, mb_left)){
                 touchid = i;
                 touching = true;
-            }
+            } 
         
     }
- 
+
 }
-
-
-if (touching) game_restart();
