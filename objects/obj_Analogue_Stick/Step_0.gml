@@ -30,9 +30,9 @@ if(touching){
     normaldir = dir;
     joyx = lerp(joyx, lengthdir_x(touchDistance, dir), 0.4);
     //joyy = lerp(joyy, lengthdir_y(touchDistance, dir), 0.4);
-    
+    image_alpha = 1;
 }else{
-
+	image_alpha = 0.5;
     joyx = lerp(joyx, 0, 0.5);
     //joyy = lerp(joyy, 0, 0.5);
     

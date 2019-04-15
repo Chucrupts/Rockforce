@@ -16,5 +16,10 @@ if (hp = 0)
 	}
 }
 
-
-if(place_meeting(x, y -1, oEnemyDead)) sprite_index = sprite;
+//if (instance_exists(oEnemyDead))
+//{
+//	if(place_meeting(x, y -1, oEnemyDead))
+//	{
+//		sprite_index = sprite;
+//	}
+//}

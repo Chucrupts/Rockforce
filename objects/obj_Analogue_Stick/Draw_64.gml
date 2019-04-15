@@ -1,5 +1,8 @@
-draw_sprite(sprite_index, 0, x, y);
-draw_sprite(sprite_index, 1, x + joyx, y + joyy);
+//draw_sprite(sprite_index, 0, x, y);
+//draw_sprite(sprite_index, 1, x + joyx, y + joyy);
+
+draw_sprite_ext(sprite_index, 0, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+draw_sprite_ext(sprite_index, 1, x + joyx, y + joyy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
 //Draw Border
 //draw_circle(x, y, radius, 2);
