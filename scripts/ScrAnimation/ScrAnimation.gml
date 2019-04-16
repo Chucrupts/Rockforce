@@ -15,10 +15,12 @@ else
 	if (hspd == 0)
 	{
 		sprite_index = argument0;
+		oGun.image_index = 0;
 	}
 	else
 	{
 		sprite_index = argument1;
+		oGun.sprite_index = sGun;
 	}
 }
 

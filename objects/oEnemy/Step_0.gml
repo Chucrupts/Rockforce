@@ -1,15 +1,18 @@
-
+ 
 // Basic Scripts
-ScrCollision();
-ScrAnimation(sEnemy,sEnemyRun,sEnemy);
+ScrEnemiesCollision();
+//ScrAnimation(sEnemy,sEnemyRun,sEnemy);
 
 // Attach enemy vision
 enemy_vision.x = x;
 enemy_vision.y = y;
+enemy_gun.x = x;
+enemy_gun.y = y;
+if (hspd != 0) enemy_gun.image_xscale = sign(hspd);
 
 if (state == states.idle)
 {
-	#region Idle
+	#region Idle 
 	// Behaviour
 	counter +=1;
 	hspd = 0;
@@ -22,7 +25,7 @@ if (state == states.idle)
 		{
 			case 0 : state = states.wander;
 			case 1 : counter = 0; break;
-		}
+		}  
 	}
 	with (enemy_vision)
 	{
@@ -69,6 +72,7 @@ else if (state == states.attack)
 	// Behaviour
 	hspd = 0;
 	image_xscale = sign( x - oPlayer.x ) * -1;
+	enemy_gun.image_xscale = sign( x - oPlayer.x ) * -1;
 	
 	var imageAngle  = 0;
 	var bulletCreation = 0;
@@ -80,7 +84,7 @@ else if (state == states.attack)
 	if (firingdelay < 0 && counter != 0)
 	{
 		firingdelay = irandom_range(40, 80);
-		with (instance_create_layer(x + bulletCreation, y + 1, "Bullet", oBulletEnemy))
+		with (instance_create_layer(x + bulletCreation, y + 8, "Bullet", oBulletEnemy))
 		{
 			speed = 8;
 			direction = imageAngle + random_range(-1,1);
@@ -90,7 +94,7 @@ else if (state == states.attack)
 	with (enemy_vision)
 	{
 		if (!place_meeting(x, y, oPlayer))
-		{
+		{ 
 			other.counter +=1;
 			if (other.counter >= room_speed * 20) 
 			{

@@ -7,6 +7,7 @@ deadzone = 0.1;
 //Ivars
 image_speed = 0;
 radius = sprite_width * 0.2; //distancia entre o circulo de cima e o de baixo
+radius_touching = sprite_width * 0.5;
 joyx = 0;
 joyy = 0;
 normalx = 0;

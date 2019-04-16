@@ -8,6 +8,9 @@
 // Calcula Movimento
 var move = round(oJoy.normalx * 1.5); 
 
+// gravidade
+vspd = vspd + grv;
+
 // movimento
 hspd = move * walkspd;
 
@@ -15,6 +18,6 @@ hspd = move * walkspd;
 if place_meeting(x, y + 1, oSolid) && ((jump))
 {
 	//altura do pulo
-	vspd = -7;
+	vspd = -9;
 	
 }

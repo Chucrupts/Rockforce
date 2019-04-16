@@ -11,7 +11,7 @@ if(touching){
     for(i = 0; i < 2; i++){
     
             touchPoint = point_distance(x,y, device_mouse_x_to_gui(i),device_mouse_y_to_gui(i))
-            if(touchPoint <= radius && device_mouse_check_button(i, mb_left)){
+            if(touchPoint <= radius_touching && device_mouse_check_button(i, mb_left)){
                 touchid = i;
                 touching = true;
             }
@@ -63,8 +63,6 @@ if (mouse_check_button_pressed(mb_left))
 			if (device_mouse_y_to_gui(0) > begin_position_y)
 			{
 				y = begin_position_y;
-			}
-		
+			}	
 	}
-
 }

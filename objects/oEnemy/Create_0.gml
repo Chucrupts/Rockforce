@@ -14,4 +14,5 @@ enum states {
 state = states.idle;
 counter = 0;
 begin_position = x;
-enemy_vision = instance_create_layer(x, y , layer, oEnemyVision);
+enemy_vision = instance_create_layer(x, y, layer, oEnemyVision);
+enemy_gun    = instance_create_layer(x, y, "EnemiesGun", oEnemyGun);

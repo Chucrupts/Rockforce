@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 
 //y = oPlayer.y + 2;
 //x = oPlayer.x;
@@ -14,9 +14,9 @@ firingdelay = firingdelay - 1;
 if (fire) && (firingdelay < 0)
 {
 	ScrScreenShake(2, 10)
-	recoil		= 2;
+	recoil		= 3;
 	firingdelay = 6;
-	with (instance_create_layer(x + bulletCreation, y + 1, "Bullet", oBullet))
+	with (instance_create_layer(x + bulletCreation, y + 7, "Bullet", oBullet))
 	{
 		speed = 8;
 		direction = imageAngle + random_range(-1,1);
