@@ -48,6 +48,6 @@ if (ladder)
 	vspd = 0;
 	
 	if (key_up)     vspd = -ladder_spd;
-	if (key_down)   vspd = ladder_spd * 1.1;
+	if (key_down)   vspd = ladder_spd * 1.3;
 	if (!place_meeting(x, y, oLadder)) ladder = false;
 }
