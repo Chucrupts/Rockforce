@@ -4,6 +4,7 @@ vspd = 0;
 grv = 0.3;
 walkspd = 2;
 firingdelay = 0;
+recoil = 3;
 
 enum states {
 	idle,
@@ -14,5 +15,5 @@ enum states {
 state = states.idle;
 counter = 0;
 begin_position = x;
-enemy_vision = instance_create_layer(x, y, layer, oEnemyVision);
+enemy_vision = instance_create_layer(x, y, "Enemies", oEnemyVision);
 enemy_gun    = instance_create_layer(x, y, "EnemiesGun", oEnemyGun);

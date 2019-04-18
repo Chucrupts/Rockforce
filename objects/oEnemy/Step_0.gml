@@ -1,7 +1,7 @@
  
 // Basic Scripts
 ScrEnemiesCollision();
-//ScrAnimation(sEnemy,sEnemyRun,sEnemy);
+ScrEnemiesAnimation(sEnemy,sEnemyRun,sEnemy);
 
 // Attach enemy vision
 enemy_vision.x = x;
@@ -77,20 +77,23 @@ else if (state == states.attack)
 	var imageAngle  = 0;
 	var bulletCreation = 0;
 	if (image_xscale < 0) imageAngle	  = 180; else imageAngle     = 0;
-	if (image_xscale < 0) bulletCreation  = -20; else bulletCreation  = +20;
+	if (image_xscale < 0) bulletCreation  = -4; else bulletCreation  = +4;
 	
 	firingdelay = firingdelay - 1;
+	recoil = 0;
 
 	if (firingdelay < 0 && counter != 0)
-	{
+	{	
+		recoil = 2;
 		firingdelay = irandom_range(40, 80);
-		with (instance_create_layer(x + bulletCreation, y + 8, "Bullet", oBulletEnemy))
+		with (instance_create_layer(x + bulletCreation, y + 4, "Bullet", oBulletEnemy))
 		{
 			speed = 8;
 			direction = imageAngle + random_range(-1,1);
 			image_xscale = other.image_xscale;
 		}
 	}
+	if (image_xscale < 0) enemy_gun.x = enemy_gun.x + recoil ;else enemy_gun.x = enemy_gun.x - recoil;
 	with (enemy_vision)
 	{
 		if (!place_meeting(x, y, oPlayer))

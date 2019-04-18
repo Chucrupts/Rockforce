@@ -18,6 +18,6 @@ hspd = move * walkspd;
 if place_meeting(x, y + 1, oSolid) && ((jump))
 {
 	//altura do pulo
-	vspd = -9;
+	vspd = jump_height;
 	
 }

@@ -1,19 +1,10 @@
 {
-    "id": "772dc309-b938-41e3-9579-e2abb2913851",
+    "id": "bb0257da-93e2-4fd9-b81e-0cc15e408092",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oLadderSolid",
     "eventList": [
-        {
-            "id": "6fedb230-122a-4375-9773-d638e50b1438",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "772dc309-b938-41e3-9579-e2abb2913851"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5ba0308e-54f3-4a79-a401-b2e72b4d2b3c",
+    "spriteId": "cc4c518e-bb90-49ee-b87b-b1ac6f755ec0",
     "visible": true
 }

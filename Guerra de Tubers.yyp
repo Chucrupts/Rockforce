@@ -415,14 +415,6 @@
             }
         },
         {
-            "Key": "772dc309-b938-41e3-9579-e2abb2913851",
-            "Value": {
-                "id": "ccedeb2b-c1c2-415e-b796-b2424467ddd3",
-                "resourcePath": "objects\\oLadderSolid\\oLadderSolid.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7930f4d1-85fd-43cd-af49-6f0b1e484d10",
             "Value": {
                 "id": "020e9f8f-18f3-412b-afa6-96edb58eba8d",
@@ -610,7 +602,7 @@
             "Key": "b6dd116a-f909-49a3-bde5-5cc63c06963f",
             "Value": {
                 "id": "0c6efb8e-2758-425f-8cc0-0383a7cfe1b4",
-                "resourcePath": "scripts\\ScrAnimation\\ScrAnimation.yy",
+                "resourcePath": "scripts\\ScrEnemiesAnimation\\ScrEnemiesAnimation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -655,6 +647,14 @@
             }
         },
         {
+            "Key": "bb0257da-93e2-4fd9-b81e-0cc15e408092",
+            "Value": {
+                "id": "c3ce83df-4736-4890-b5cd-ae395b2ff6e2",
+                "resourcePath": "objects\\oLadderSolid\\oLadderSolid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bbfbeac9-dacf-48fa-97ad-0d3240907447",
             "Value": {
                 "id": "36733e40-5bcc-411b-b47e-beb62a5d7566",
@@ -684,6 +684,14 @@
                 "id": "4095e78a-f1cb-4037-bb94-f6c799afa9dd",
                 "resourcePath": "views\\c6edea6a-aa7f-4bf0-b5f1-7e86d2e6eea5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc4c518e-bb90-49ee-b87b-b1ac6f755ec0",
+            "Value": {
+                "id": "ee4faf63-4d9f-486b-97d5-5ce436753815",
+                "resourcePath": "sprites\\sprite31\\sprite31.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -823,6 +831,14 @@
             }
         },
         {
+            "Key": "f46eb99d-d02b-4d49-8bb2-c0ac4ca4e952",
+            "Value": {
+                "id": "009a2679-791d-4eb1-80bf-f25940b687da",
+                "resourcePath": "scripts\\ScrPlayerAnimation\\ScrPlayerAnimation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f734196e-eba7-403a-92d0-857b31d0d201",
             "Value": {
                 "id": "2557089a-abf6-42f0-bcd7-a1f40c499499",
@@ -884,6 +900,7 @@
         "176edac0-34b1-419e-bb6f-89db09b54528",
         "11742463-14ff-4c66-8b11-a9e2c837d528",
         "b109ede6-6024-47d9-9ac8-a8cd9594f787",
+        "f46eb99d-d02b-4d49-8bb2-c0ac4ca4e952",
         "b6dd116a-f909-49a3-bde5-5cc63c06963f",
         "f83dda09-717d-4cd7-917d-18fe5606e343",
         "7379a207-6789-4d15-9644-f6041f9b521d",

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oLadder",
     "eventList": [
-        
+        {
+            "id": "1ca10ce3-ec09-4b4c-b615-2d40e0aacac4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "37a96ccf-71ad-4e1e-92c8-6d2cd8d49888"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
