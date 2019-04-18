@@ -23,8 +23,11 @@ if (place_meeting(x, y + 1, oSolid) && (key_jump))
 }
 
 // Escada
-if (place_meeting(x, y + vspd, oLadder) && ladder = false) instance_activate_object(oLadderSolid);
-if (place_meeting(x + hspd, y, oLadderSolid)) ladder = true
+//if (place_meeting(x, y + vspd, oLadder) && ladder = false)
+if (ladder = false) instance_activate_object(oLadderSolid);
+if (place_meeting(x, y, oLadder) && ladder = false) instance_deactivate_object(oLadderSolid);
+if (place_meeting(x + hspd, y, oLadderSolid)) instance_deactivate_object(oLadderSolid);
+
 
 if (key_down || key_up)
 {
@@ -33,11 +36,11 @@ if (key_down || key_up)
 
 if (ladder)
 {
-	instance_deactivate_object(oLadderSolid);
+	instance_deactivate_object(oLadderSolid);	
 	vspd = 0;
 	
 	if (key_up)     vspd = -ladder_spd;
-	if (key_down)   vspd = ladder_spd * 1.5;
+	if (key_down)   vspd = ladder_spd * 1.3;
 	if (!place_meeting(x, y, oLadder)) ladder = false;
 }
 

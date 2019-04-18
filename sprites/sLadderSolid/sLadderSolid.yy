@@ -2,7 +2,7 @@
     "id": "cc4c518e-bb90-49ee-b87b-b1ac6f755ec0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite31",
+    "name": "sLadderSolid",
     "For3D": false,
     "HTile": false,
     "VTile": false,
