@@ -27,6 +27,8 @@ if (place_meeting(x, y + 1, oSolid) && (key_jump))
 if (ladder = false) instance_activate_object(oLadderSolid);
 if (place_meeting(x, y, oLadder) && ladder = false) instance_deactivate_object(oLadderSolid);
 if (place_meeting(x + hspd, y, oLadderSolid)) instance_deactivate_object(oLadderSolid);
+if (place_meeting(x, y + 1, oLadderSolid)) key_up = false;
+
 
 
 if (key_down || key_up)

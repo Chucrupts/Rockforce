@@ -1,4 +1,4 @@
-  /// @description Handle Input
+   /// @description Handle Input
 if(touching){
 
     if(device_mouse_check_button(touchid, mb_left) == false){
@@ -29,22 +29,22 @@ if(touching){
     dir = point_direction(x,y, device_mouse_x_to_gui(touchid),device_mouse_y_to_gui(touchid));
     normaldir = dir;
     joyx = lerp(joyx, lengthdir_x(touchDistance, dir), 0.4);
-    //joyy = lerp(joyy, lengthdir_y(touchDistance, dir), 0.4);
+    joyy = lerp(joyy, lengthdir_y(touchDistance, dir), 0.4);
     image_alpha = 1;
 }else{
 	image_alpha = 0.5;
     joyx = lerp(joyx, 0, 0.5);
-    //joyy = lerp(joyy, 0, 0.5);
+    joyy = lerp(joyy, 0, 0.5);
     
 }
 
 //normalize
 normalx = (joyx / radius) * 1;
-//normaly = (joyy / radius) * 1;
+normaly = (joyy / radius) * 1;
 
 //deadzone
 if(abs(normalx) < deadzone){ normalx = 0; }
-//if(abs(normaly) < deadzone){ normaly = 0; }
+if(abs(normaly) < deadzone){ normaly = 0; }
 
 
 // Obj follow the finger

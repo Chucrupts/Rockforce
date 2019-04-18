@@ -4,9 +4,16 @@
 //key_left  = keyboard_check(ord("A"));
 //key_right = keyboard_check(ord("D"));
 //key_jump = keyboard_check(vk_space);
+var key_down = false;
+var key_up = false;
 
 // Calcula Movimento
 var move = round(oJoy.normalx * 1.5); 
+var moveV = round(oJoy.normaly); 
+
+if (sign(moveV) < 0) key_up = true; 
+if (sign(moveV) > 0) key_down = true;
+
 
 // gravidade
 vspd = vspd + grv;
@@ -20,4 +27,27 @@ if place_meeting(x, y + 1, oSolid) && ((jump))
 	//altura do pulo
 	vspd = jump_height;
 	
+}
+
+// Escada
+//if (place_meeting(x, y + vspd, oLadder) && ladder = false)
+if (ladder = false) instance_activate_object(oLadderSolid);
+if (place_meeting(x, y, oLadder) && ladder = false) instance_deactivate_object(oLadderSolid);
+if (place_meeting(x + hspd, y, oLadderSolid)) instance_deactivate_object(oLadderSolid);
+if (place_meeting(x, y + 1, oLadderSolid)) key_up = false;
+
+
+if (key_down || key_up)
+{
+	if (place_meeting(x, y, oLadder) || place_meeting(x, y + 1, oLadderSolid)) ladder = true;
+}
+
+if (ladder)
+{
+	instance_deactivate_object(oLadderSolid);	
+	vspd = 0;
+	
+	if (key_up)     vspd = -ladder_spd;
+	if (key_down)   vspd = ladder_spd * 1.1;
+	if (!place_meeting(x, y, oLadder)) ladder = false;
 }
