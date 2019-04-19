@@ -1,23 +1,23 @@
 {
-    "id": "fbb941e7-0b15-4a17-8229-07ff79a47e1a",
+    "id": "e5b777ea-b1ab-4b66-87dd-f00e4845f182",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oJoyJump",
+    "name": "oDead",
     "eventList": [
         {
-            "id": "a402a761-ee08-4672-b45a-cafda3d3cc58",
+            "id": "94877d52-5c4e-42fe-8de8-479a44fcacf8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "b29a5303-04c2-4860-865e-3113ec5a1b05",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "fbb941e7-0b15-4a17-8229-07ff79a47e1a"
+            "eventtype": 4,
+            "m_owner": "e5b777ea-b1ab-4b66-87dd-f00e4845f182"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "cf67accc-eb8d-4227-867f-b5973775c373",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "190ba1ce-fd74-4ace-a108-e1177e325bf9",
+    "spriteId": "4daa6d0c-f8dd-4623-8da0-778cf91adf36",
     "visible": true
 }

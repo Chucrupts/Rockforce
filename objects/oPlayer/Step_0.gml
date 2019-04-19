@@ -1,10 +1,10 @@
 
 // Basic Scripts
 
-if (os_type = os_android) ScrMove(); else  ScrMovePC();
+//if (os_type = os_android) ScrMove(); else  ScrMovePC();
 
 
-
+ScrMove();
 ScrPlayerCollision();
 ScrPlayerAnimation(sPlayer, sPlayerRun, sPlayerJump);
 

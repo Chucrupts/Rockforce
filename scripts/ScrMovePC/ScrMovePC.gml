@@ -5,7 +5,7 @@ key_left  = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_up    = keyboard_check(ord("W"));
 key_down  = keyboard_check(ord("S"));
-key_jump = keyboard_check_pressed(vk_space);
+key_jump  = keyboard_check_pressed(vk_space);
 
 var move = key_right - key_left
 // movimento
@@ -26,7 +26,7 @@ if (key_jump)
 {
 	if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid))
 	{
-		vspd = jump_height / 1.3;
+		vspd = jump_height / 1.5;
 		if( vspd > 0) grv = 0.01; else grv = 0.3;
 	}
 }

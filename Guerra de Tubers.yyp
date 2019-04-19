@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "4daa6d0c-f8dd-4623-8da0-778cf91adf36",
+            "Value": {
+                "id": "4938af32-ff68-44c1-abc6-d3dae29bd1ef",
+                "resourcePath": "sprites\\sDead\\sDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55b6fb6e-67d6-4cca-920d-06a997915607",
             "Value": {
                 "id": "ca439f4a-69c9-46a3-bb51-e563dab8d0bc",
@@ -538,7 +546,7 @@
             "Key": "a68160fe-3b57-486d-8510-f88b50fac337",
             "Value": {
                 "id": "e834d4a6-c42e-4f40-9efd-b476de0466ad",
-                "resourcePath": "objects\\oActionButton\\oActionButton.yy",
+                "resourcePath": "objects\\oActionButtonHold\\oActionButtonHold.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -711,6 +719,14 @@
             }
         },
         {
+            "Key": "cf67accc-eb8d-4227-867f-b5973775c373",
+            "Value": {
+                "id": "5bfd64da-9303-437b-a758-54f75987d015",
+                "resourcePath": "objects\\oActionButtonTap\\oActionButtonTap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d175c3eb-fcbf-4416-ba5f-e58f6b8816d1",
             "Value": {
                 "id": "a8727c7a-8f89-415e-bb5e-1eb5eae04e5b",
@@ -796,6 +812,14 @@
                 "id": "5c1dcdb2-e88b-4a6a-ae0a-3b0587349d3d",
                 "resourcePath": "sprites\\vjoy_Theme_Line_Dark\\vjoy_Theme_Line_Dark.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5b777ea-b1ab-4b66-87dd-f00e4845f182",
+            "Value": {
+                "id": "9c754dad-e2d1-40fd-aca2-7cb085449e2c",
+                "resourcePath": "objects\\oDead\\oDead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
