@@ -30,16 +30,9 @@ if place_meeting(x, y + 1, oSolid) && ((jump))
 }
 
 // wall jump
-if (jump)
+if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid) && !ladder)
 {
-	if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid))
-	{
-		vspd = jump_height / 1.5;
-		if( vspd > 0) grv = 0.01; else grv = 0.3;
-	}
-}
-if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid))
-{
+	if(jump) vspd = jump_height / 1.5;
 	if( vspd > 0) grv = 0.01; else grv = 0.3;
 }
 else
@@ -48,12 +41,11 @@ else
 }
 
 // Escada
-//if (place_meeting(x, y + vspd, oLadder) && ladder = false)
+// ojeto solido da escada
 if (ladder = false) instance_activate_object(oLadderSolid);
 if (place_meeting(x, y, oLadder) && ladder = false) instance_deactivate_object(oLadderSolid);
 if (place_meeting(x + hspd, y, oLadderSolid)) instance_deactivate_object(oLadderSolid);
 if (place_meeting(x, y + 1, oLadderSolid)) key_up = false;
-
 
 if (key_down || key_up)
 {

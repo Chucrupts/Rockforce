@@ -1,5 +1,5 @@
 {
-    "id": "f46eb99d-d02b-4d49-8bb2-c0ac4ca4e952",
+    "id": "97a8727f-e6e0-4580-ac3a-728adab78e62",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "ScrPlayerAnimation",

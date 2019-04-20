@@ -8,4 +8,4 @@ ladder_spd  = 3;
 jump_height = -6;
 
 
-instance_create_layer(x, y, "Gun", oGun);
+instance_create_layer(x, y, "Gun", oGun); 

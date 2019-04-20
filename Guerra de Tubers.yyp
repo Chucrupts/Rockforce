@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "97a8727f-e6e0-4580-ac3a-728adab78e62",
+            "Value": {
+                "id": "f19c2b98-f85d-4c55-bb91-6cbb08d2e3e5",
+                "resourcePath": "scripts\\ScrPlayerAnimation\\ScrPlayerAnimation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9849ad96-8bc3-45cb-9cf3-3de8342ca275",
             "Value": {
                 "id": "b0f53c93-7893-43d4-b7dc-58a4fa54cf7a",
@@ -751,6 +759,14 @@
             }
         },
         {
+            "Key": "dbfb9503-1e75-4fe7-8130-a7f49e63e898",
+            "Value": {
+                "id": "39b41e3d-41b5-4b85-a5f8-35bed7304be9",
+                "resourcePath": "sprites\\sBk4\\sBk4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ddf91637-9209-4576-a678-e4ebd3a5284f",
             "Value": {
                 "id": "fad06d1f-6dae-4771-8ac7-1e232f23c642",
@@ -855,14 +871,6 @@
             }
         },
         {
-            "Key": "f46eb99d-d02b-4d49-8bb2-c0ac4ca4e952",
-            "Value": {
-                "id": "009a2679-791d-4eb1-80bf-f25940b687da",
-                "resourcePath": "scripts\\ScrPlayerAnimation\\ScrPlayerAnimation.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f734196e-eba7-403a-92d0-857b31d0d201",
             "Value": {
                 "id": "2557089a-abf6-42f0-bcd7-a1f40c499499",
@@ -924,7 +932,7 @@
         "176edac0-34b1-419e-bb6f-89db09b54528",
         "11742463-14ff-4c66-8b11-a9e2c837d528",
         "b109ede6-6024-47d9-9ac8-a8cd9594f787",
-        "f46eb99d-d02b-4d49-8bb2-c0ac4ca4e952",
+        "97a8727f-e6e0-4580-ac3a-728adab78e62",
         "b6dd116a-f909-49a3-bde5-5cc63c06963f",
         "f83dda09-717d-4cd7-917d-18fe5606e343",
         "7379a207-6789-4d15-9644-f6041f9b521d",
