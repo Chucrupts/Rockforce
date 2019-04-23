@@ -4,15 +4,16 @@
 //key_left  = keyboard_check(ord("A"));
 //key_right = keyboard_check(ord("D"));
 //key_jump = keyboard_check(vk_space);
-var key_down = false;
-var key_up = false;
+key_down = false;
+key_up = false;
+key_jump = jump;
 
 // Calcula Movimento
 var move = round(oJoy.normalx * 1.5); 
 var moveV = round(oJoy.normaly); 
 
-if (sign(moveV) < 0) key_up = true; 
-if (sign(moveV) > 0) key_down = true;
+if (sign(moveV) < 0) key_up = true; else key_down = true;
+//if (sign(moveV) > 0) key_down = true;
 
 
 // gravidade
@@ -30,14 +31,16 @@ if place_meeting(x, y + 1, oSolid) && ((jump))
 }
 
 // wall jump
-if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid) && !ladder)
+if (place_meeting(x - 1, y, oSolid) || place_meeting(x + 1, y, oSolid) && !place_meeting(x, y, oLadder) && !place_meeting(x, y + 1, oSolid))
 {
-	if(jump) vspd = jump_height / 1.5;
-	if( vspd > 0) grv = 0.01; else grv = 0.3;
+	if(key_jump) vspd = jump_height / 1.5;
+	if( vspd > 0) grv = 0.03; else grv = 0.3;
+	if(key_jump) wall_jump = false; else wall_jump = true;
 }
 else
 {
 	grv = 0.3;
+	wall_jump = false;
 }
 
 // Escada

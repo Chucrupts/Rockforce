@@ -1,25 +1,31 @@
 /// @description Players collision
 
 // H Collision
-if (place_meeting(x + hspd, y, oSolid))
+if(hspd !=0)
 {
-	while (!place_meeting(x + sign(hspd), y, oSolid))
+	if (place_meeting(x + hspd, y, oSolid))
 	{
-		x = x + sign(hspd);
+		while (!place_meeting(x + sign(hspd), y, oSolid))
+		{
+			x = x + sign(hspd);
+		}
+		hspd = 0;
 	}
-	hspd = 0;
 }
 
 x = x + hspd;
 
 // V Collision
-if (place_meeting(x, y + vspd, oSolid))
+if(vspd !=0)
 {
-	while (!place_meeting(x, y + sign(vspd), oSolid))
+	if (place_meeting(x, y + vspd, oSolid))
 	{
-		y = y + sign(vspd);
+		while (!place_meeting(x, y + sign(vspd), oSolid))
+		{
+			y = y + sign(vspd);
+		}
+		vspd = 0;
 	}
-	vspd = 0;
-}
 
-y = y + vspd;
+	y = y + vspd;
+}

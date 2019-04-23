@@ -367,6 +367,22 @@
             }
         },
         {
+            "Key": "60d37e3d-f4af-480a-b1eb-f3dd50b8340e",
+            "Value": {
+                "id": "ad796a8b-0bd4-41f9-860f-f2e62578b891",
+                "resourcePath": "scripts\\ScrImnput\\ScrImnput.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "61a36e0d-6e5d-4644-aba7-9194b1b2e323",
+            "Value": {
+                "id": "e9fafb74-8372-4ff6-8992-2b72d2bf43e6",
+                "resourcePath": "sprites\\sGunWallJump\\sGunWallJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62c82b8f-30b4-4782-b554-c8c5d3206c81",
             "Value": {
                 "id": "c9959e56-2dcd-4b2f-9489-f93b631d393d",
@@ -507,6 +523,14 @@
             "Value": {
                 "id": "ec77bf46-e60e-4d2b-8611-87f5b8ded06e",
                 "resourcePath": "sprites\\sBK1\\sBK1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "93eedfea-6b5e-477e-9285-7f5e4b4b0902",
+            "Value": {
+                "id": "c2b78b70-2aaa-424b-965b-450970d12306",
+                "resourcePath": "sprites\\sPlayerWallJump2\\sPlayerWallJump2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "bcfb05c8-b823-47a4-9da5-ca6b260b27de",
+            "Value": {
+                "id": "98182305-1dd8-4e65-8cae-c8133d1cbad9",
+                "resourcePath": "scripts\\ScrPlaceMeetingStates\\ScrPlaceMeetingStates.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c2c1a161-a174-4fd4-be34-723887a807aa",
             "Value": {
                 "id": "1374e411-9b6d-478e-a2b9-e9e953aeda7a",
@@ -692,6 +724,14 @@
                 "id": "e8e4ff16-050a-4090-a549-b632bd4d6c8c",
                 "resourcePath": "views\\c40bfbe1-8421-4ae6-bb74-d2c45ba70066.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c54a6b19-a0f5-42c7-a626-ccd01dca350a",
+            "Value": {
+                "id": "573a5662-7bad-4655-a451-0890c47a1817",
+                "resourcePath": "sprites\\sPlayerWallJump\\sPlayerWallJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -938,7 +978,9 @@
         "7379a207-6789-4d15-9644-f6041f9b521d",
         "b0f9ab79-c9cc-4dde-95b2-1f6d5b52de04",
         "19b46c8d-f076-4976-938c-2646271821bb",
-        "f7ea7dd3-1a35-4337-808f-f6b2d5b7d0c3"
+        "f7ea7dd3-1a35-4337-808f-f6b2d5b7d0c3",
+        "bcfb05c8-b823-47a4-9da5-ca6b260b27de",
+        "60d37e3d-f4af-480a-b1eb-f3dd50b8340e"
     ],
     "tutorial": ""
 }

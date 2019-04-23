@@ -26,3 +26,4 @@ if (place_meeting(x, y + vspd, oSolid))
 }
 
 y = y + vspd;
+//if (place_meeting(x, y + vspd, oLadder) || place_meeting(x, y + vspd, oLadderSolid)) vspd = 0;

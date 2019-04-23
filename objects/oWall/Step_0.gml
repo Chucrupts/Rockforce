@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (hp = 0)
 {	
-	next = instance_nearest(x, y - 20 , object_index);
+	next = instance_nearest(x, y - 10 , object_index);
 	ScrParticleDirt(50);
 	instance_destroy();
 		with(next) 
