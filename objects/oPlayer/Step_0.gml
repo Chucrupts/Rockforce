@@ -9,7 +9,7 @@ ScrPlayerAnimation(sPlayer, sPlayerRun, sPlayerJump);
 
 
 
-if (hspd != 0) oGun.image_xscale = sign(hspd);
+oGun.image_xscale = image_xscale;
 
 oGun.y = y;
 oGun.x = x;

@@ -26,7 +26,7 @@ if (jump_state)
 if (wall_jump_state)
 {
 	if(key_jump) vspd = jump_height / 1.5;
-	if( vspd > 0) grv = 0.03; else grv = 0.3;
+	if( vspd > 0 && !key_jump) grv = 0.01; else grv = 0.3;
 	if(key_jump) wall_jump = false; else wall_jump = true;
 }
 else

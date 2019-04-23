@@ -551,14 +551,6 @@
             }
         },
         {
-            "Key": "97a8727f-e6e0-4580-ac3a-728adab78e62",
-            "Value": {
-                "id": "f19c2b98-f85d-4c55-bb91-6cbb08d2e3e5",
-                "resourcePath": "scripts\\ScrPlayerAnimation\\ScrPlayerAnimation.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "9849ad96-8bc3-45cb-9cf3-3de8342ca275",
             "Value": {
                 "id": "b0f53c93-7893-43d4-b7dc-58a4fa54cf7a",
@@ -716,6 +708,14 @@
                 "id": "1374e411-9b6d-478e-a2b9-e9e953aeda7a",
                 "resourcePath": "views\\c2c1a161-a174-4fd4-be34-723887a807aa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2c25df8-882f-46f0-a66c-921c3c08ea61",
+            "Value": {
+                "id": "4ca9438c-a929-4b5d-8501-4ad81f7bf6e3",
+                "resourcePath": "scripts\\ScrPlayerAnimation\\ScrPlayerAnimation.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -972,7 +972,7 @@
         "176edac0-34b1-419e-bb6f-89db09b54528",
         "11742463-14ff-4c66-8b11-a9e2c837d528",
         "b109ede6-6024-47d9-9ac8-a8cd9594f787",
-        "97a8727f-e6e0-4580-ac3a-728adab78e62",
+        "c2c25df8-882f-46f0-a66c-921c3c08ea61",
         "b6dd116a-f909-49a3-bde5-5cc63c06963f",
         "f83dda09-717d-4cd7-917d-18fe5606e343",
         "7379a207-6789-4d15-9644-f6041f9b521d",
