@@ -186,7 +186,7 @@
             "Key": "29ba1cd2-da04-414a-80ab-ee4c37833bc3",
             "Value": {
                 "id": "f65ab42a-25b0-44d2-be5c-13a493ac5d5a",
-                "resourcePath": "sprites\\sEmeniGun\\sEmeniGun.yy",
+                "resourcePath": "sprites\\sEnenyGun\\sEnenyGun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -892,14 +892,6 @@
                 "id": "9a29d363-bfde-487b-a58d-4644e8bc6857",
                 "resourcePath": "sprites\\vjoy_Theme_Flat_Dark_AS\\vjoy_Theme_Flat_Dark_AS.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ef202f62-c2d0-4a16-9441-d678828f3f58",
-            "Value": {
-                "id": "101763ac-04b0-4c11-8a7f-199a37f869a9",
-                "resourcePath": "objects\\oEnemyGun\\oEnemyGun.yy",
-                "resourceType": "GMObject"
             }
         },
         {

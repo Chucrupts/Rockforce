@@ -2,7 +2,7 @@
     "id": "29ba1cd2-da04-414a-80ab-ee4c37833bc3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sEmeniGun",
+    "name": "sEnenyGun",
     "For3D": false,
     "HTile": false,
     "VTile": false,

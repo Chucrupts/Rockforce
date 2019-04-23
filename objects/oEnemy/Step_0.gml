@@ -6,9 +6,6 @@ ScrEnemiesAnimation(sEnemy,sEnemyRun,sEnemy);
 // Attach enemy vision
 enemy_vision.x = x;
 enemy_vision.y = y;
-enemy_gun.x = x;
-enemy_gun.y = y;
-if (hspd != 0) enemy_gun.image_xscale = sign(hspd);
 
 if (state == states.idle)
 {
@@ -88,13 +85,13 @@ else if (state == states.attack)
 		else
 		{
 			other.image_xscale = sign( x - oPlayer.x ) * -1;
-			other.enemy_gun.image_xscale = sign( x - oPlayer.x ) * -1;
+			//other.enemy_gun.image_xscale = sign( x - oPlayer.x ) * -1;
 		}
 	}
 	var imageAngle  = 0;
 	var bulletCreation = 0;
 	if (image_xscale < 0) imageAngle	  = 180; else imageAngle     = 0;
-	if (image_xscale < 0) bulletCreation  = -4; else bulletCreation  = +4;
+	if (image_xscale < 0) bulletCreation  = 2; else bulletCreation  = -2;
 	
 	firingdelay = firingdelay - 1;
 	recoil = 0;
@@ -108,11 +105,10 @@ else if (state == states.attack)
 			with (instance_create_layer(x + bulletCreation, y + 4, "Bullet", oBulletEnemy))
 			{
 				speed = 8;
-				direction = imageAngle + random_range(-1,1);
+				direction = imageAngle;
 				image_xscale = other.image_xscale;
 			}
 		}
-		if (image_xscale < 0) enemy_gun.x = enemy_gun.x + recoil ;else enemy_gun.x = enemy_gun.x - recoil;
 	}
 
 	#endregion
