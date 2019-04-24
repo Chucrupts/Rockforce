@@ -1,11 +1,7 @@
- 
-// Basic Scripts
+ // Basic Scripts
 ScrEnemiesCollision();
 ScrEnemiesAnimation(sEnemy,sEnemyRun,sEnemy);
 
-// Attach enemy vision
-enemy_vision.x = x;
-enemy_vision.y = y;
 
 if (state == states.idle)
 {
@@ -25,12 +21,10 @@ if (state == states.idle)
 			case 1 : counter = 0; break;
 		}  
 	}
-	with (enemy_vision)
+	
+	if (collision_line(x + 100, y, x - 100, y, oPlayer, false, false))
 	{
-		if (place_meeting(x, y, oPlayer))
-		{
-			other.state = states.attack;
-		}
+		other.state = states.attack;
 	}
 	#endregion
 }
@@ -54,12 +48,10 @@ else if (state == states.wander)
 				counter = 0;
 		}
 	}
-	with (enemy_vision)
+
+	if (collision_line(x + 100, y, x - 100, y, oPlayer, false, false))
 	{
-		if (place_meeting(x, y, oPlayer))
-		{
-			other.state = states.attack;
-		}
+		other.state = states.attack;
 	}
 	
 	#endregion
@@ -71,23 +63,20 @@ else if (state == states.attack)
 	hspd = 0;
 	counter_attack --;
 
-	with (enemy_vision)
-	{
-		if (!place_meeting(x, y, oPlayer))
-		{ 
-			other.counter +=1;
-			if (other.counter >= room_speed * 20) 
-			{
-				other.state = states.idle;
-				counter = 0;
-			}
-		}
-		else
+	if (!collision_line(x + 100, y, x - 100, y, oPlayer, false, false))
+	{ 
+		counter +=1;
+		if (counter >= room_speed * 20) 
 		{
-			other.image_xscale = sign( x - oPlayer.x ) * -1;
-			//other.enemy_gun.image_xscale = sign( x - oPlayer.x ) * -1;
+			state = states.idle;
+			counter = 0;
 		}
 	}
+	else
+	{
+		image_xscale = sign( x - oPlayer.x ) * -1;
+	}
+
 	var imageAngle  = 0;
 	var bulletCreation = 0;
 	if (image_xscale < 0) imageAngle	  = 180; else imageAngle     = 0;
@@ -113,5 +102,3 @@ else if (state == states.attack)
 
 	#endregion
 }
-	
-
